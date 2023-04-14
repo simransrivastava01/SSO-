@@ -1,0 +1,25 @@
+.container {
+    margin-left: 200px;
+    margin-top: 90px;
+    padding: 50px;
+    width: 700px;
+    height: 200px;
+    }
+    input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 100%;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+   }
+   button {
+    color: white;
+    background-color: green;
+    padding: 14px 20px;
+    width: 30%;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    }
