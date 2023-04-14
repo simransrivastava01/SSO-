@@ -1,9 +1,9 @@
 
 <?php
 
-	session_start();
+    session_start();
 
-	$con = mysqli_connect("localhost","root","","database");
+    $con = mysqli_connect("localhost","root","","database");
 	
     $sql1 = "SELECT * FROM token_table ORDER BY id DESC LIMIT 1";
     $result1 = mysqli_query($con, $sql1) or die(mysqli_error($con));
