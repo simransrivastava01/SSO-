@@ -2,12 +2,6 @@
 
 session_start();
 
-// if(isset($_GET['token']))
-// {
-//     $token_value = $_GET['token'];
-//     //$_SESSION['token'] = $token_value;
-// }
-
 if(isset($_GET['token']))
 {
     header('Location: http://application1.com:8080/home1.php');
@@ -25,12 +19,3 @@ else
 }
 
 ?>
-
-
-
-
-
-
-
-
-
